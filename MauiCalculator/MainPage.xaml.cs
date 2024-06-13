@@ -44,8 +44,8 @@ public partial class MainPage : ContentPage
 
         else if (button.Text == "×" || button.Text == "-"
             || button.Text == "+" || button.Text == "÷"
-            || button.Text == "1/x" || button.Text == "sqrt"
-            || button.Text == "x^2" || button.Text == "Del"
+            || button.Text == "1/x" || button.Text == "√x"
+            || button.Text == "x²" || button.Text == "Del"
             || button.Text == "CE" || button.Text == "C" || button.Text == "%")
             button.BackgroundColor = Color.FromArgb("#41414D");
         else

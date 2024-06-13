@@ -269,7 +269,7 @@
                 Clicked="SelectOperation"
                 Text="×"/>
 
-        <Label Grid.Column="5"
+            <Label Grid.Column="5"
                Grid.Row="0"
                BackgroundColor="Transparent"
                TextColor="White"
@@ -279,7 +279,7 @@
                VerticalTextAlignment="Start"
                Text="History"/>
 
-        <ListView x:Name="HistoryList" 
+            <ListView x:Name="HistoryList" 
                   Grid.Column="5"
                   Grid.Row="1"
                   Grid.RowSpan="7"
@@ -287,16 +287,15 @@
                   VerticalOptions="Start"
                   BackgroundColor="Transparent"/>
 
-        <ImageButton Grid.Row="8"
+            <ImageButton Grid.Row="8"
                 Grid.Column="5"
-                Padding="5"
+                Padding="10"
+                MaximumHeightRequest="20"
+                MaximumWidthRequest="20"
                 HorizontalOptions="End"
                 VerticalOptions="End"
-                BackgroundColor="#36363D"
-                CornerRadius="4"
+                BackgroundColor="Transparent"
                 Opacity="1"
-                MaximumWidthRequest="50"
-                MaximumHeightRequest="50"
                 Source="trash_icon.png"
                 Clicked="ClearHistory"/>
 
@@ -319,9 +318,9 @@
                 Pressed="pressed"
                 Released="released"
                 Clicked="Square"
-                Text="x^2"/>
+                Text="x²"/>
 
-        <Button Grid.Row="4"
+            <Button Grid.Row="4"
                 Grid.Column="1"
                 BackgroundColor="#41414D"
                 TextColor="White"
@@ -329,7 +328,7 @@
                 Pressed="pressed"
                 Released="released"
                 Clicked="Sqrt"
-                Text="sqrt"/>
+                Text="√x"/>
 
             <Button Grid.Row="3"
                 Grid.Column="3"
