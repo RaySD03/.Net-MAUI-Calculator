@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiCalculator.HistoryPage"
+             Title="NewPage1"
+             BackgroundColor="#1E2733"
+             Shell.NavBarIsVisible="False"    
+             NavigationPage.HasBackButton="False">
+
+    <Grid RowSpacing="5" ColumnSpacing="5" BackgroundColor="#292930" 
+      RowDefinitions="*,6*,*" 
+      ColumnDefinitions="*"
+      Padding="5"
+      SizeChanged="resize">
+        
+        <Label 
+            Text="History"
+            Padding="10"
+            Grid.Column="1"
+            Grid.Row="0" 
+            FontSize="16"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center"/>
+
+        <ListView x:Name="HistoryList" 
+           Grid.Column="0"
+           Grid.Row="1"
+           HorizontalOptions="End" 
+           Grid.ColumnSpan="1"
+           VerticalOptions="StartAndExpand"
+           BackgroundColor="Transparent"/>
+
+        <Button x:Name="ReturnButton"
+          Grid.Row="0"
+          Grid.Column="0"
+          WidthRequest="40"
+          IsVisible="true"
+          BackgroundColor="#36363D"
+          CornerRadius="8"
+          FontSize="17"
+          FontAutoScalingEnabled="True"
+          TextColor="White"
+          HorizontalOptions="Start"
+          VerticalOptions="Start"
+          Clicked="returnHome"
+          Text="&lt;"/>
+        
+        <ImageButton Grid.Row="2"
+                Grid.Column="0"
+                Padding="5"
+                HorizontalOptions="End"
+                VerticalOptions="End"
+                BackgroundColor="#36363D"
+                CornerRadius="4"
+                Opacity="1"
+                MaximumWidthRequest="30"
+                MaximumHeightRequest="30"
+                Source="trash_icon.png"
+                Clicked="ClearHistory"/>
+    </Grid>
+</ContentPage>
