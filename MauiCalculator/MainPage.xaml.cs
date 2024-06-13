@@ -47,10 +47,10 @@ public partial class MainPage : ContentPage
             || button.Text == "1/x" || button.Text == "√x"
             || button.Text == "x²" || button.Text == "Del"
             || button.Text == "CE" || button.Text == "C" || button.Text == "%")
-            button.BackgroundColor = Color.FromArgb("#41414D");
+            button.BackgroundColor = Color.FromArgb("#363640");
         else
         {
-            button.BackgroundColor = Color.FromArgb("#575767");
+            button.BackgroundColor = Color.FromArgb("#494957");
         }
     } 
     private string formatOutput(double num)
@@ -128,7 +128,7 @@ public partial class MainPage : ContentPage
             decimalPoint = false;
         }
     }
-    public async void SelectNumber(object sender, EventArgs e)
+    public void SelectNumber(object sender, EventArgs e)
     {
         if (digitCount <= 16)
         {

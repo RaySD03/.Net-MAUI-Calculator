@@ -5,7 +5,7 @@
              Title=""       
              Shell.NavBarIsVisible="False">
 
-    <Grid x:Name="Keys"  RowSpacing="4" ColumnSpacing="4" BackgroundColor="#292930" 
+    <Grid x:Name="Keys"  RowSpacing="4" ColumnSpacing="4" BackgroundColor="#212126" 
           RowDefinitions="*,1.25*,1.25*,*,*,*,*,*,*" 
           ColumnDefinitions="*,*,*,*,2.5*"
           Padding="5"
@@ -27,16 +27,16 @@
                 Text="View History"/>
 
             <Label x:Name="CurrentOperation"
-               FontSize="18"
-               LineBreakMode="NoWrap"
-               Grid.ColumnSpan="4"
-               Text=""
-               TextColor="WhiteSmoke"
-               BackgroundColor="Transparent"
-               HorizontalTextAlignment="End"
-               VerticalTextAlignment="End"
-               Grid.Row="1"
-               Padding="0"/>
+                FontSize="18"
+                LineBreakMode="NoWrap"
+                Grid.ColumnSpan="4"
+                Text=""
+                TextColor="WhiteSmoke"
+                BackgroundColor="Transparent"
+                HorizontalTextAlignment="End"
+                VerticalTextAlignment="End"
+                Grid.Row="1"
+                Padding="0"/>
 
             <Label x:Name="ResultWindow"
                 Grid.Row="2"
@@ -51,7 +51,7 @@
 
             <Button Grid.Row="3"
                 Grid.Column="0" 
-                BackgroundColor="#41414D"
+                BackgroundColor="#363640"
                 CornerRadius="4"
                 FontSize="15"
                 TextColor="White"
@@ -62,7 +62,7 @@
 
             <Button Grid.Row="3"
                 Grid.Column="1" 
-                BackgroundColor="#41414D"
+                BackgroundColor="#363640"
                 CornerRadius="4"
                 FontSize="15"
                 TextColor="White"
@@ -73,7 +73,7 @@
 
             <Button Grid.Row="3"
                 Grid.Column="2" 
-                BackgroundColor="#41414D"
+                BackgroundColor="#363640"
                 CornerRadius="4"
                 FontSize="15"
                 TextColor="White"
@@ -84,7 +84,7 @@
 
             <Button Grid.Row="4"
                 Grid.Column="0" 
-                BackgroundColor="#41414D"
+                    BackgroundColor="#363640"
                 CornerRadius="4"
                 FontSize="15"
                 TextColor="White"
@@ -95,7 +95,7 @@
 
             <Button Grid.Row="5"
                 Grid.Column="0"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -106,7 +106,7 @@
 
             <Button Grid.Row="5"
                 Grid.Column="1"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -117,7 +117,7 @@
 
             <Button Grid.Row="5"
                 Grid.Column="2"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -128,7 +128,7 @@
 
             <Button Grid.Row="6"
                 Grid.Column="0"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -139,7 +139,7 @@
 
             <Button Grid.Row="6"
                 Grid.Column="1"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -150,7 +150,7 @@
 
             <Button Grid.Row="6"
                 Grid.Column="2"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -161,7 +161,7 @@
 
             <Button Grid.Row="7"
                 Grid.Column="0"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -172,7 +172,7 @@
 
             <Button Grid.Row="7"
                 Grid.Column="1"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -183,7 +183,7 @@
 
             <Button Grid.Row="7"
                 Grid.Column="2"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -194,7 +194,7 @@
 
             <Button Grid.Row="8"
                 Grid.Column="0"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="17"
@@ -205,7 +205,7 @@
 
             <Button Grid.Row="8"
                 Grid.Column="1"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -216,7 +216,7 @@
 
             <Button Grid.Row="8"
                 Grid.Column="2"
-                BackgroundColor="#575767"
+                BackgroundColor="#494957"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="15"
@@ -238,7 +238,7 @@
 
             <Button Grid.Row="7"
                 Grid.Column="3"
-                BackgroundColor="#41414D"
+                BackgroundColor="#363640"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="19"
@@ -249,7 +249,7 @@
 
             <Button Grid.Row="6"
                 Grid.Column="3"
-                BackgroundColor="#41414D"
+                BackgroundColor="#363640"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="19"
@@ -260,7 +260,7 @@
 
             <Button Grid.Row="5"
                 Grid.Column="3"
-                BackgroundColor="#41414D"
+                BackgroundColor="#363640"
                 CornerRadius="4"
                 TextColor="White"
                 FontSize="19"
@@ -270,26 +270,26 @@
                 Text="×"/>
 
             <Label Grid.Column="5"
-               Grid.Row="0"
-               BackgroundColor="Transparent"
-               TextColor="White"
-               FontSize="16"
-               Padding="10"
-               HorizontalTextAlignment="Center"
-               VerticalTextAlignment="Start"
-               Text="History"/>
+                Grid.Row="0"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                FontSize="16"
+                Padding="10"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Start"
+                Text="History"/>
 
             <ListView x:Name="HistoryList" 
-                  Grid.Column="5"
-                  Grid.Row="1"
-                  Grid.RowSpan="7"
-                  HorizontalOptions="End" 
-                  VerticalOptions="Start"
-                  BackgroundColor="Transparent"/>
+                Grid.Column="5"
+                Grid.Row="1"
+                Grid.RowSpan="7"
+                HorizontalOptions="End" 
+                VerticalOptions="Start"
+                BackgroundColor="Transparent"/>
 
             <ImageButton Grid.Row="8"
                 Grid.Column="5"
-                Padding="10"
+                Padding="11"
                 MaximumHeightRequest="20"
                 MaximumWidthRequest="20"
                 HorizontalOptions="End"
@@ -302,7 +302,7 @@
 
             <Button Grid.Row="4"
                 Grid.Column="3"
-                BackgroundColor="#41414D"
+                BackgroundColor="#363640"
                 TextColor="White"
                 CornerRadius="4"
                 FontSize="20"
@@ -313,7 +313,7 @@
 
             <Button Grid.Row="4"
                 Grid.Column="2"
-                BackgroundColor="#41414D"
+                BackgroundColor="#363640"
                 TextColor="White"
                 CornerRadius="4"
                 Pressed="pressed"
@@ -323,7 +323,7 @@
 
             <Button Grid.Row="4"
                 Grid.Column="1"
-                BackgroundColor="#41414D"
+                BackgroundColor="#363640"
                 TextColor="White"
                 CornerRadius="4"
                 Pressed="pressed"
@@ -333,7 +333,7 @@
 
             <Button Grid.Row="3"
                 Grid.Column="3"
-                BackgroundColor="#41414D"
+                BackgroundColor="#363640"
                 TextColor="White"
                 CornerRadius="4"
                 Pressed="pressed"
