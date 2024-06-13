@@ -297,6 +297,7 @@
                 BackgroundColor="Transparent"
                 Opacity="1"
                 Source="trash_icon.png"
+                ToolTipProperties.Text="Clear all history"
                 Clicked="ClearHistory"/>
 
             <Button Grid.Row="4"

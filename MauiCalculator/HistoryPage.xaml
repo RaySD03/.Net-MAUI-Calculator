@@ -14,13 +14,13 @@
       SizeChanged="resize">
 
         <Label 
-            Text="History"
-            Padding="10"
-            Grid.Column="1"
-            Grid.Row="0" 
-            FontSize="16"
-            VerticalOptions="Start" 
-            HorizontalOptions="Center"/>
+           Text="History"
+           Padding="10"
+           Grid.Column="1"
+           Grid.Row="0" 
+           FontSize="16"
+           VerticalOptions="Start" 
+           HorizontalOptions="Center"/>
 
         <ListView x:Name="HistoryList" 
            Grid.Column="0"
@@ -46,16 +46,17 @@
            Clicked="returnHome"/>
 
         <ImageButton Grid.Row="2"
-                Grid.Column="0"
-                Padding="10"
-                HorizontalOptions="End"
-                VerticalOptions="End"
-                MaximumHeightRequest="12"
-                MaximumWidthRequest="12"
-                CornerRadius="4"
-                BackgroundColor="Transparent"
-                Opacity="1"
-                Source="trash_icon.png"
-                Clicked="ClearHistory"/>
+           Grid.Column="0"
+           Padding="10"
+           HorizontalOptions="End"
+           VerticalOptions="End"
+           MaximumHeightRequest="12"
+           MaximumWidthRequest="12"
+           CornerRadius="4"
+           BackgroundColor="Transparent"
+           Opacity="1"
+           Source="trash_icon.png"
+           ToolTipProperties.Text="Clear all history"
+           Clicked="ClearHistory"/>
     </Grid>
 </ContentPage>
