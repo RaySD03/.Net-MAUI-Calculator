@@ -155,6 +155,12 @@ public partial class MainPage : ContentPage
 
             if (selected == "." && decimalPoint == false) // decimal point append if first time
             {
+                if (ResultWindow.Text == "") {
+                    decimalPoint = true;
+                    this.ResultWindow.Text = "0.";
+                    return;
+                }
+                
                 decimalPoint = true;
                 this.ResultWindow.Text += ".";
             }
@@ -275,7 +281,7 @@ public partial class MainPage : ContentPage
     }
     public void SelectOperation(object sender, EventArgs e)
     {
-        // Avoid pressing '=', if another operator is selected, compute result and move to next operation 
+        // Skip pressing '=', if another operator is selected, compute result and move to next operation 
         // Possible only if entry is not empty (num2 is not null)
         if (entry != null && state != -1 && state != -2)
         {
@@ -334,7 +340,7 @@ public partial class MainPage : ContentPage
                 ResultWindow.Text = "";
             }
             ResultWindow.Text = ResultWindow.Text.ToString().Remove(ResultWindow.Text.Length - 1);
-            //ResultWindow.Text = double.Parse(ResultWindow.Text).ToString("##,#0.###########");
+            // ResultWindow.Text = double.Parse(ResultWindow.Text).ToString("##,#0.###########");
             entry.Remove(entry.Length - 1);
         }
         if (ResultWindow.Text.ToString().Contains('.'))
@@ -342,7 +348,7 @@ public partial class MainPage : ContentPage
             decimalPoint = true;
         }
         if (ResultWindow.Text.ToString().Contains('.') == false)
-        {
+        { 
             decimalPoint = false;
         }
         // state -1 is after selecting =, only delete current operation
@@ -400,7 +406,7 @@ public partial class MainPage : ContentPage
                 
                 this.CurrentOperation.Text = num1 + " " + Operator + " " + num2.ToString("#,0.#####");
             }
-            // In the middle of operation, negate second argument
+            // In the middle of operation, negate second argument if applicable
             else if (state == -2)
             {
                 num2 = -1 * double.Parse(ResultWindow.Text);
