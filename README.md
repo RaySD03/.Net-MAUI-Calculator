@@ -14,5 +14,7 @@ A simple calculator application built using the .NET Multi-platform App UI (.NET
 - .NET 7.0 SDK or later
 
 ## Demo
-https://github.com/user-attachments/assets/31d89ebd-40c8-4b16-9a99-1090fb1c5177
+https://github.com/user-attachments/assets/f1112b81-2b7f-42ff-b269-63adbb6f7082
+
+
 
