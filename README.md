@@ -1,5 +1,18 @@
-Calculator UI: <br /><br />
-![Screenshot (4)](https://github.com/RaySD03/MauiCalculator/assets/113494325/682cb628-dd08-4001-9ca5-0852c9a181c0)
+# .NET MAUI Calculator
 
-Compact mode: <br /><br />
-![Screenshot (3)](https://github.com/RaySD03/MauiCalculator/assets/113494325/4d6c0999-32a9-4179-b82c-31d57e6a68b6)
+A simple calculator application built using the .NET Multi-platform App UI (.NET MAUI) framework.
+
+## Features
+
+- Arithmetic operations: addition, subtraction, multiplication, and division
+- Responsive design for various screen sizes
+- Cross-platform support
+
+### Prerequisites
+
+- Visual Studio 2022 with .NET MAUI workload installed
+- .NET 7.0 SDK or later
+
+## Demo
+https://github.com/user-attachments/assets/31d89ebd-40c8-4b16-9a99-1090fb1c5177
+
